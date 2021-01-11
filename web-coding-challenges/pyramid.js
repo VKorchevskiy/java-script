@@ -9,7 +9,6 @@ pyramid(3) => [ ['⛄️'], ['⛄️', '⛄️'], ['⛄️', '⛄️', '⛄️']
 
 function pyramid(num) {
   const arr = [];
-
   for (let i = 0; i < num; i++) {
     arr.push([]);
     for (let j = 0; j <= i; j++) {
