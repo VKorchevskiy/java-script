@@ -28,16 +28,15 @@ function add(a, b) {
       d=1;
       e=d;
     }
-    //console.log(result);
 
   }
   return result;
 }
 
-console.log(add('571', '432')); // 1003 a
+console.log(add('571', '432')); // 1003
 console.log(add('571', '49')); //620
 console.log(add('49', '571')); //620
 console.log(add('55555', '555')); //56110
 console.log(Number.MAX_SAFE_INTEGER);
 console.log(add(''+(Number.MAX_SAFE_INTEGER+1),''+(Number.MAX_SAFE_INTEGER+1)));
-console.log(9007199254740991n+1n+9007199254740991n+1n);
+console.log(9007199254740991n+1n+9007199254740991n+1n);// Для проверки предыдущего значения
